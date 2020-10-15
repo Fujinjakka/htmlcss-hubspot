@@ -5,9 +5,17 @@
 }
 
 header {
-  height: 1000px;
+  height: 900px;
 }
 
+.header-top {
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+  background: lightgrey;
+  text-align: center;
+  padding: 0 20%;
+}
 .header-top-left, .header-top-right {
   height: 100%;
   border: 1px solid black;
@@ -21,20 +29,27 @@ header {
 }
 
 
-.header-top {
-  height: 10%;
-  width: 100%;
-  border: 1px solid black;
-  background: lightgrey;
-  text-align: center;
-  padding: 0 20%;
-}
 .header-bottom {
   height: 10%;
   width: 100%;
   border: 1px solid black;
   background: grey;
+  padding: 0 20%;
+  position: sticky;
+  top: 0;
 }
+.header-bottom-left, .header-bottom-right {
+  height: 100%;
+  border: 1px solid black;
+  display: inline-block;
+}
+.header-bottom-left {
+  float: left;
+}
+.header-bottom-right {
+  float: right;
+}
+
 .header-main {
   height: 80%;
   width: 100%;
@@ -44,26 +59,54 @@ header {
   height: 100%;
   width: 100%;
   background-image: url("../img/jumbotron.png");
-  background-size: 100% 100%;
   background-position: bottom right;
   background-repeat: no-repeat;
-
+  background-size: 100% 100%;
 }
 
 
 
-main {
-  height: 100vh;
-}
+
+
+
+
 .container1 {
+  height: 1600px;
+  width: 100%;
+  border: 1px solid black;
+  background: lightgrey;
+}
+.container1-top {
+  height: 50%;
+  width: 100%;
+  border: 1px solid black;
+}
+.container1-bottom {
+  height: 50%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+.container2celeste {
+  height: 800px;
+  width: 100%;
+  border: 1px solid black;
+  background: lightblue;
+}
+.container3bianco {
   height: 800px;
   width: 100%;
   border: 1px solid black;
   background: lightgrey;
 }
-.block {
-  height: 50px;
-  width: 50px;
+footer {
+  height: 700px;
+  width: 100%;
   border: 1px solid black;
-  background: red;
+  background: darkblue;
 }
