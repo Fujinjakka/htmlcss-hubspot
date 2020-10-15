@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 1000px;
+}
+.header-top {
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+  background: lightgrey;
+}
+.header-bottom {
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+  background: grey;
+}
+.header-main {
+  height: 80%;
+  width: 100%;
+  border: 1px solid black;
+}
+.header-background {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/jumbotron.png");
+  background-size: 100% 100%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+}
+
+
+
+main {
+  height: 100vh;
+}
+.container1 {
+  height: 800px;
+  width: 100%;
+  border: 1px solid black;
+  background: lightgrey;
+}
+.block {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background: red;
+}
