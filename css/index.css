@@ -7,11 +7,27 @@
 header {
   height: 1000px;
 }
+
+.header-top-left, .header-top-right {
+  height: 100%;
+  border: 1px solid black;
+  display: inline-block;
+}
+.header-top-left {
+  float: left;
+}
+.header-top-right {
+  float: right;
+}
+
+
 .header-top {
   height: 10%;
   width: 100%;
   border: 1px solid black;
   background: lightgrey;
+  text-align: center;
+  padding: 0 20%;
 }
 .header-bottom {
   height: 10%;
