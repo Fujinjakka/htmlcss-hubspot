@@ -4,109 +4,90 @@
   padding: 0;
 }
 
-header {
-  height: 900px;
+/* general */
+.margin-20 {
+  height: 100%;
+  margin: 0 20%;
 }
-
-.header-top {
-  height: 10%;
-  width: 100%;
-  border: 1px solid black;
-  background: lightgrey;
+.list-clear {
+  list-style-type: none;
+}
+.list-details {
+  float: left;
   text-align: center;
-  padding: 0 20%;
+  line-height: 40px;
+  padding: 16px;
 }
-.header-top-left, .header-top-right {
-  height: 100%;
-  border: 1px solid black;
-  display: inline-block;
+.link-details {
+  color: #32495B;
+  text-decoration: none;
 }
-.header-top-left {
+
+
+
+/* header */
+#header-top {
+  height: 80px;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #F4F9FD;
+}
+#header-bottom {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+}
+#header-background {
+  height: 695px;
+  width: 100%;
+  background-color: #FFF4EF;
+}
+
+
+#header-top-left {
   float: left;
 }
-.header-top-right {
+#header-top-right {
   float: right;
 }
 
+#icon-arrowdown {
+  margin-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #32495B;
+}
 
-.header-bottom {
-  height: 10%;
+
+
+
+
+
+/* main */
+#main-top {
+  height: 1400px;
   width: 100%;
-  border: 1px solid black;
-  background: grey;
-  padding: 0 20%;
-  position: sticky;
-  top: 0;
+  background-color: #F4F9FD;
 }
-.header-bottom-left, .header-bottom-right {
-  height: 100%;
-  border: 1px solid black;
-  display: inline-block;
-}
-.header-bottom-left {
-  float: left;
-}
-.header-bottom-right {
-  float: right;
-}
-
-.header-main {
-  height: 80%;
-  width: 100%;
-  border: 1px solid black;
-}
-.header-background {
-  height: 100%;
-  width: 100%;
-  background-image: url("../img/jumbotron.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-
-
-
-
-
-
-.container1 {
-  height: 1600px;
-  width: 100%;
-  border: 1px solid black;
-  background: lightgrey;
-}
-.container1-top {
-  height: 50%;
-  width: 100%;
-  border: 1px solid black;
-}
-.container1-bottom {
-  height: 50%;
-  width: 100%;
-  border: 1px solid black;
-}
-
-
-
-
-
-
-.container2celeste {
-  height: 800px;
-  width: 100%;
-  border: 1px solid black;
-  background: lightblue;
-}
-.container3bianco {
-  height: 800px;
-  width: 100%;
-  border: 1px solid black;
-  background: lightgrey;
-}
-footer {
+#main-mid {
   height: 700px;
   width: 100%;
-  border: 1px solid black;
-  background: darkblue;
+  background-color: #00AEB3;
+}
+#main-bottom {
+  height: 700px;
+  width: 100%;
+  background-color: white;
+}
+
+
+
+
+
+
+
+/* footer */
+#footer-background {
+  height: 700px;
+  width: 100%;
+  background-color: #32495B;
 }
