@@ -4,36 +4,63 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <title></title>
   </head>
   <body>
 
     <header>
-      <div id="header-top">
+      <div id="header-top" class="clearfix">
         <div class="margin-20">
           <div id="header-top-left">
             <ul class="list-clear">
-              <li class="list-details"><a class="link-details" href="#"><i class="fas fa-globe-europe"></i></a></li>
-              <li class="list-details"><a class="link-details" href="#">English<i id="icon-arrowdown" class="fas fa-chevron-down"></i></a></li>
-              <li class="list-details"><a class="link-details" href="#">Contact Us</a></li>
+              <li id="icon-world" class="list-details">
+                <a class="link-details" href="#"><i class="fas fa-globe-europe"></i></a></li>
+              <li class="list-details">
+                <a class="link-details" href="#">English<i id="icon-arrowdown" class="fas fa-chevron-down"></i></a></li>
+              <li class="list-details">
+                <a class="link-details" href="#">Contact Us</a></li>
             </ul>
           </div>
           <div id="header-top-right">
             <ul class="list-clear">
-              <li class="list-details"><a class="link-details" href="#"><i class="fas fa-search"></i></a></li>
-              <li class="list-details"><a class="link-details" href="#">log In</a></li>
-              <li class="list-details"><a class="link-details" href="#">GetHubspotFree</a></li>
+              <li class="list-details">
+                <a class="link-details" href="#"><i id="icon-search" class="fas fa-search"></i></a></li>
+              <li class="list-details">
+                <a id="header-top-button-white" class="link-details" href="#">log In</a></li>
+              <li class="list-details">
+                <a id="header-top-button-orange" class="link-details" href="#">GetHubspotFree</a></li>
             </ul>
           </div>
         </div>
-
         </div>
-      <div id="header-bottom">
 
+      <div id="header-bottom" class="clearfix">
+        <div class="margin-20">
+          <div id="header-bottom-left">
+            <a id="icon-logo" href="#"><img src="img/logo.png" alt=""></a>
+          </div>
+          <div id="header-bottom-right">
+            <ul class="list-clear">
+              <li class="list-details"><a class="link-details" href="#">Software</a><i class="fas fa-chevron-down icon-arrow"></i></li>
+              <li class="list-details"><a class="link-details" href="#">Pricing</a></li>
+              <li class="list-details"><a class="link-details" href="#">Resources</a><i class="fas fa-chevron-down icon-arrow"></i></li>
+              <li class="list-details"><a class="link-details" href="#">Partners</a><i class="fas fa-chevron-down icon-arrow"></i></li>
+              <li class="list-details"><a class="link-details" href="#">About</a><i class="fas fa-chevron-down icon-arrow"></i></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div id="header-background">
 
+      <div id="header-background">
+        <div class="margin-20">
+          <div id="header-background-text-container">
+            <h1>There's a better way to grow.</h1>
+            <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”</p>
+            <a id="header-background-button" href="#">GetHubspotFree</a>
+            <p id="header-background-text-small">Get started with FREE tools, and upgrade as you grow.</p>
+          </div>
+        </div>
       </div>
 
     </header>
