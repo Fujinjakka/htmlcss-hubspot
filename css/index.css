@@ -239,13 +239,14 @@ padding: 20px;
 }
 .main-top-down-list {
   line-height: 20px;
-  margin-bottom: 10%
+  margin-bottom: 10%;
+  margin-left: 20px;
+  text-align: left;
 }
 .lane-separator {
   margin: 10% 0;
 }
 #main-top-down {
-  height: 50%;
   width: 100%;
 }
 #down-left {
@@ -276,8 +277,38 @@ padding: 20px;
 #main-mid {
   height: 700px;
   width: 100%;
-  background-color: #00AEB3;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  background: rgb(0,165,188);
+  background: linear-gradient(45deg, rgba(0,165,188,1) 0%, rgba(0,187,165,1) 100%);
 }
+#main-mid-top {
+  width: 100%;
+  padding: 5%;
+}
+#main-mid-top-text {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.main-mid-list-details {
+  width: 25%;
+  height: 150px;
+  float: left;
+  padding: 30px 20px;
+}
+.list-border {
+  border-bottom: 1px solid white;
+}
+.list-border2 {
+  border-right: 1px solid white;
+}
+
+/* main-bottom */
+
+
+
 
 
 
